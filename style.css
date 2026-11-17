@@ -9,14 +9,20 @@ body {
   display: flex;
   flex-direction: column;
   font-family: system-ui, sans-serif;
-  background: #f4f4f4;
-  color: #111;
+  background: #f9f3b5;
+  color: #fdac81;
 }
 
 h1 {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 0.5rem;
 }
 
 main {
@@ -29,7 +35,8 @@ main {
 
 img {
   display: block;
-  max-width: 80vw;
-  max-height: 70vh;
+  max-width: 30vw;
+  max-height: 10vh;
   object-fit: contain;
+  opacity: 0.05;
 }
