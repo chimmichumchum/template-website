@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: system-ui, sans-serif;
-  background: #000000;
-  color: #111;
+  background: #f9f3b5;
+  color: #fdac81;
 }
 
 h1 {
@@ -27,6 +27,12 @@ h2 {
   color: #ffdd00;
 }
 
+h2 {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 0.5rem;
+}
+
 main {
   flex: 1;
   display: flex;
@@ -37,7 +43,8 @@ main {
 
 img {
   display: block;
-  max-width: 60vw;
-  max-height: 40vh;
+  max-width: 30vw;
+  max-height: 10vh;
   object-fit: contain;
+  opacity: 0.05;
 }
